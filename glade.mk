@@ -14,11 +14,8 @@
 
 $(call inherit-product, device/sony/taoshan/taoshan.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
-# Inherit CM common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit glade common Phone stuff.
+$(call inherit-product, vendor/glade/configs/common.mk)
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 854
@@ -29,7 +26,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C2105 BUILD_FINGERPRINT=Sony/C2105/
 
 # Device identifier
 PRODUCT_DEVICE := taoshan
-PRODUCT_NAME := cm_taoshan
+PRODUCT_NAME := glade_taoshan
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := C2105
 PRODUCT_MANUFACTURER := Sony
