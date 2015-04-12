@@ -1,14 +1,7 @@
 [
-  {
-    "repository": "android_device_sony_msm8960-common",
-    "target_path": "device/sony/msm8960-common"
-  },
-  {
+  { "remote": "gd",
     "repository": "android_kernel_sony_msm8930",
-    "target_path": "kernel/sony/msm8930"
-  },
-  {
-    "repository": "android_hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm"
-  }
+    "target_path": "kernel/sony/msm8930",
+    "revision": "5.1"
+  } 
 ]
