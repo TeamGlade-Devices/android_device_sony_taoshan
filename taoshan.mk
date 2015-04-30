@@ -111,7 +111,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     $(LOCAL_PATH)/rootdir/system/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    $(LOCAL_PATH)/rootdir/system/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny
+    $(LOCAL_PATH)/rootdir/system/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+    $(LOCAL_PATH)/rootdir/system/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    $(LOCAL_PATH)/rootdir/system/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so
 
 PRODUCT_PACKAGES += \
     libnfc \
